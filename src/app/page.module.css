@@ -171,53 +171,6 @@
 
 }
 
-@media screen and (max-width: 1050px) and (min-width: 800px) {
-  .h1 {
-    font-size: 48px;
-    width: 400px;
-  }
-  .h2 {
-    font-size: 24px;
-  }
-
-  .portrait {
-    width: 275px;
-    height: 275px;
-  }
-
-  .h3 {
-    font-size: 36px;
-  }
-
-  .h4 {
-    font-size: 19px;
-  }
-
-  .jobTitle {
-    font-size: 24px;
-  }
-
-  .jobDescription {
-    font-size: 21px;
-  }
-  
-  .experienceContainer {
-    width: 340px;
-    
-  }
-
-  .logoImage {
-    object-fit: cover;
-    width: 50px;
-    height: 50px;
-  }
-
-  .p {
-    font-size: 20px;
-  }
-
-}
-
 
 
 @media screen and (max-width: 1050px) and (min-width: 800px) {
@@ -281,33 +234,35 @@
     
   }
 
+  
+
   .h1 {
     font-size: 50px;
   }
   .h2 {
-    font-size: 27px;
+    font-size: 23px;
   }
 
   .portrait {
-    width: 350px;
-    height: 350px;
-    margin-bottom: 50px;
+    width: 300px;
+    height: 300px;
+    margin: 30px 0px;
   }
 
   .h3 {
-    font-size: 45px;
+    font-size: 40px;
   }
 
   .h4 {
-    font-size: 25px;
+    font-size: 18px;
   }
 
   .jobTitle {
-    font-size: 27px;
+    font-size: 22px;
   }
 
   .jobDescription {
-    font-size: 24px;
+    font-size: 19px;
   }
   
   .experienceContainer {
@@ -316,7 +271,7 @@
   }
 
   .p {
-    font-size: 22px;
+    font-size: 19px;
   }
 
   .logoImage {
@@ -340,6 +295,7 @@
 
   .experienceGrid {
     grid-template-columns: 1fr;
+    row-gap: 40px;
     
   }
 
@@ -353,23 +309,23 @@
   .portrait {
     width: 250px;
     height: 250px;
-    margin-bottom: 50px;
+    margin: 30px 0px;
   }
 
   .h3 {
-    font-size: 36px;
+    font-size: 32px;
   }
 
   .h4 {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .jobTitle {
-    font-size: 23px;
+    font-size: 18px;
   }
 
   .jobDescription {
-    font-size: 21px;
+    font-size: 16px;
   }
   
   .experienceContainer {
@@ -389,11 +345,11 @@
   }
 
   .p {
-    font-size: 21px;
+    font-size: 18px;
   }
 
   .experienceInfo {
-    height: 230px;
+    height: 180px;
   }
 
 
@@ -408,16 +364,16 @@
 
   .experienceGrid {
     grid-template-columns: 1fr;
-    row-gap: 40px;
+    row-gap: 33px;
     
   }
 
 
   .h1 {
-    font-size: 35px;
+    font-size: 32px;
   }
   .h2 {
-    font-size: 22px;
+    font-size: 18px;
   }
 
   .portrait {
