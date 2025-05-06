@@ -5,7 +5,7 @@ export default function Experience({styles, company, logo, role1, date1, descrip
         <div className={styles.experienceContainer}>
             <div className = {styles.experienceTitle}>
                 <h4 className={styles.h4}>{company}</h4>
-                <Image alt = "dataLogo" style = {{marginLeft: "20px"}} src = {logo} width={80} height={80}></Image>
+                <Image alt = "dataLogo" className={styles.logoImage} style = {{marginLeft: "20px"}} src = {logo} width={80} height={80}></Image>
             </div>
             <div className={styles.experienceInfo}>
                 <h5 className={styles.jobTitle}>{role1}</h5>

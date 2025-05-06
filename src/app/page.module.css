@@ -1,12 +1,19 @@
 .hero {
   display: grid;
-  grid-template-columns: auto 1fr;
+  grid-template-columns: 1fr auto;
   margin-top: 50px;
+
+
+  align-items: center;
 
 }
 
 .heroText {
   margin-top: 15px;
+}
+
+.heroSubText {
+  width: 80%;
 }
 
 .h1{
@@ -122,4 +129,341 @@
   font-weight: 500;
   color: #F5F5F5;
   margin: 0px;
+}
+
+@media screen and (max-width: 2000px) and (min-width: 1050px) {
+  .h1 {
+    font-size: 75px;
+  }
+  .h2 {
+    font-size: 32px;
+  }
+
+  .portrait {
+    width: 350px;
+    height: 350px;
+  }
+
+  .h3 {
+    font-size: 45px;
+  }
+
+  .h4 {
+    font-size: 25px;
+  }
+
+  .jobTitle {
+    font-size: 27px;
+  }
+
+  .jobDescription {
+    font-size: 24px;
+  }
+  
+  .experienceContainer {
+    width: 440px;
+    
+  }
+
+  .p {
+    font-size: 24px;
+  }
+
+}
+
+@media screen and (max-width: 1050px) and (min-width: 800px) {
+  .h1 {
+    font-size: 48px;
+    width: 400px;
+  }
+  .h2 {
+    font-size: 24px;
+  }
+
+  .portrait {
+    width: 275px;
+    height: 275px;
+  }
+
+  .h3 {
+    font-size: 36px;
+  }
+
+  .h4 {
+    font-size: 19px;
+  }
+
+  .jobTitle {
+    font-size: 24px;
+  }
+
+  .jobDescription {
+    font-size: 21px;
+  }
+  
+  .experienceContainer {
+    width: 340px;
+    
+  }
+
+  .logoImage {
+    object-fit: cover;
+    width: 50px;
+    height: 50px;
+  }
+
+  .p {
+    font-size: 20px;
+  }
+
+}
+
+
+
+@media screen and (max-width: 1050px) and (min-width: 800px) {
+  
+
+  .h1 {
+    font-size: 48px;
+    width: 400px;
+  }
+  .h2 {
+    font-size: 24px;
+  }
+
+  .portrait {
+    width: 275px;
+    height: 275px;
+  }
+
+  .h3 {
+    font-size: 36px;
+  }
+
+  .h4 {
+    font-size: 19px;
+  }
+
+  .jobTitle {
+    font-size: 24px;
+  }
+
+  .jobDescription {
+    font-size: 21px;
+  }
+  
+  .experienceContainer {
+    width: 340px;
+    
+  }
+
+  .logoImage {
+    object-fit: cover;
+    width: 50px;
+    height: 50px;
+  }
+
+  .p {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 800px) and (min-width: 500px) {
+  .hero {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  
+  }
+
+  .experienceGrid {
+    grid-template-columns: 1fr;
+
+    
+  }
+
+  .h1 {
+    font-size: 50px;
+  }
+  .h2 {
+    font-size: 27px;
+  }
+
+  .portrait {
+    width: 350px;
+    height: 350px;
+    margin-bottom: 50px;
+  }
+
+  .h3 {
+    font-size: 45px;
+  }
+
+  .h4 {
+    font-size: 25px;
+  }
+
+  .jobTitle {
+    font-size: 27px;
+  }
+
+  .jobDescription {
+    font-size: 24px;
+  }
+  
+  .experienceContainer {
+    width: 440px;
+    
+  }
+
+  .p {
+    font-size: 22px;
+  }
+
+  .logoImage {
+    object-fit: cover;
+    width: 50px;
+    height: 50px;
+  }
+
+  .jobDates {
+    font-size: 18px;
+  }
+}
+
+
+@media screen and (max-width: 500px) and (min-width: 425px) {
+  .hero {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  
+  }
+
+  .experienceGrid {
+    grid-template-columns: 1fr;
+    
+  }
+
+  .h1 {
+    font-size: 40px;
+  }
+  .h2 {
+    font-size: 27px;
+  }
+
+  .portrait {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 50px;
+  }
+
+  .h3 {
+    font-size: 36px;
+  }
+
+  .h4 {
+    font-size: 18px;
+  }
+
+  .jobTitle {
+    font-size: 23px;
+  }
+
+  .jobDescription {
+    font-size: 21px;
+  }
+  
+  .experienceContainer {
+    width: 320px;
+    
+  }
+
+  .logoImage {
+    object-fit: cover;
+    width: 50px;
+    height: 50px;
+  }
+
+
+  .jobDates {
+    font-size: 16px;
+  }
+
+  .p {
+    font-size: 21px;
+  }
+
+  .experienceInfo {
+    height: 230px;
+  }
+
+
+}
+
+@media screen and (max-width: 425px) {
+  .hero {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  
+  }
+
+  .experienceGrid {
+    grid-template-columns: 1fr;
+    row-gap: 40px;
+    
+  }
+
+
+  .h1 {
+    font-size: 35px;
+  }
+  .h2 {
+    font-size: 22px;
+  }
+
+  .portrait {
+    width: 200px;
+    height: 200px;
+    margin: 50px 0px;
+  }
+
+  .h3 {
+    font-size: 30px;
+  }
+
+  .h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .jobTitle {
+    font-size: 18px;
+  }
+
+  .jobDates {
+    font-size: 14px;
+  }
+
+  .jobDescription {
+    font-size: 16px;
+  }
+  
+  .experienceContainer {
+    width: 240px;
+    
+  }
+  .experienceInfo {
+    height: 200px;
+  }
+
+  .p {
+    font-size: 15px;
+    line-height: 18px;
+  }
+
+  .logoImage {
+    object-fit: cover;
+    width: 38px;
+    height: 38px;
+  }
+
 }
