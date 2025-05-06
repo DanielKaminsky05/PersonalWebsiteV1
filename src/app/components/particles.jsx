@@ -90,7 +90,7 @@ const ParticlesComponent = (props) => {
   );
 
   return (
-    <Particles init={particlesLoaded} options={options}/>
+    <Particles style={{zIndex: -1}} init={particlesLoaded} options={options}/>
   )
 };
 
