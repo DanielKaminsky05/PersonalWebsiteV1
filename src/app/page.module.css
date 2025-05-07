@@ -131,6 +131,112 @@
   margin: 0px;
 }
 
+
+.projectContainer {
+  width: 100%;
+  
+}
+
+
+.swiper {
+  height: 100%;
+  width: 90vw;
+  max-width: 1300px;
+  height: 640px;
+  padding: 5px;
+  margin: 0 auto;
+  
+
+}
+
+.swiperContainer {
+  height: 100%;
+  max-width: 1300px;
+  
+
+}
+
+.slide {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: auto;
+}
+
+.slideCard {
+  width: 400px;
+  height: 600px;
+  border-radius: 10px; 
+  background-color: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+}
+
+.videoContainer {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  border-bottom: 1px solid #E0F2FE;
+}
+
+.videoOverlay {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.videoOverlay::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent dark overlay */
+  z-index: 1;
+}
+
+.video {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+
+}
+
+.slideText {
+  margin: 20px 10px;
+}
+
+.projectHeading {
+  font-size: 25px;
+  color:#F5F5F5;
+  margin: 0px;
+}
+
+.projectDescription {
+  color: #E5E7EB
+}
+
+.tagContainer {
+
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.slideTag {
+  border: solid grey 1px;
+  color: #E5E7EB;
+  border-radius: 20px;
+  width: fit-content;
+  padding: 5px 10px;
+  font-size: 13px;
+  margin: 0px;
+}
+
 @media screen and (max-width: 2000px) and (min-width: 1050px) {
   .h1 {
     font-size: 75px;
@@ -167,6 +273,16 @@
 
   .p {
     font-size: 24px;
+  }
+
+  .skillHeaders {
+    font-size: 25px;
+    
+  }
+  
+  .skills {
+    font-size:30px;
+    
   }
 
 }
@@ -219,6 +335,18 @@
   .p {
     font-size: 20px;
   }
+
+
+  .skillHeaders {
+    font-size: 20px;
+    
+  }
+  
+  .skills {
+    font-size:25px;
+    
+  }
+
 }
 
 @media screen and (max-width: 800px) and (min-width: 500px) {
@@ -234,7 +362,10 @@
     
   }
 
-  
+  .experienceInfo {
+
+    height: 180px;
+  }
 
   .h1 {
     font-size: 50px;
@@ -283,6 +414,31 @@
   .jobDates {
     font-size: 18px;
   }
+
+  .skillHeaders {
+    font-size: 20px;
+    
+  }
+  
+  .skills {
+    font-size:23px;
+    
+  }
+
+  .slideCard {
+    width: 300px;
+    height: 540px;
+  }
+  
+  .videoContainer {
+    height: 200px;
+  }
+
+  .swiper {
+    height: 580px
+  }
+
+  
 }
 
 
@@ -352,7 +508,28 @@
     height: 180px;
   }
 
+  .skillHeaders {
+    font-size: 20px;
+    
+  }
+  
+  .skills {
+    font-size:23px;
+    
+  }
 
+  .slideCard {
+    width: 300px;
+    height: 540px;
+  }
+  
+  .videoContainer {
+    height: 200px;
+  }
+
+  .swiper {
+    height: 580px
+  }
 }
 
 @media screen and (max-width: 425px) {
@@ -368,12 +545,15 @@
     
   }
 
-
   .h1 {
     font-size: 32px;
   }
   .h2 {
-    font-size: 18px;
+    font-size: 15px;
+  }
+
+  .heroSubText {
+    width: 90%;
   }
 
   .portrait {
@@ -422,4 +602,40 @@
     height: 38px;
   }
 
+   .skillHeaders {
+    font-size: 14px;
+    
+  }
+  
+  .skills {
+    font-size:16px;
+    
+  }
+
+  .slideCard {
+    width: 200px;
+    height: 460px;
+  }
+  
+  .videoContainer {
+    height: 150px;
+  }
+
+  .swiper {
+    height: 500px;
+  }
+
+  .projectDescription {
+    font-size: 11px;
+  }
+
+  .projectHeading {
+    font-size: 20px;
+  }
+
+  .slideTag {
+    font-size: 10px;
+    padding: 4px;
+  }
+  
 }

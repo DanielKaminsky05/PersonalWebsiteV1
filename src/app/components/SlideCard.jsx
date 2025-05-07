@@ -1,0 +1,48 @@
+import React from 'react'
+import Tag from './Tag'
+
+export default function SlideCard({styles, video, projectName, projectDescription, tags, image}) {
+  return (
+    <div className={styles.slideCard}>
+    <div className={styles.videoContainer}>
+      <div className={styles.videoOverlay}>
+        {video ? (
+            <video
+              className={styles.video}
+              src={video}
+              autoPlay
+              muted
+              loop
+              playsInline
+              preload="metadata"
+            />
+          ) : (
+            <img className = {styles.video} src = {image}/>
+          )}
+        
+      </div>
+    </div>
+    <div className={styles.slideText}>
+        <h3 className={styles.projectHeading}>{projectName}</h3>
+        <p className={styles.projectDescription}>
+          {projectDescription}
+        </p>
+        <div className={styles.tagContainer}>
+
+        
+        {
+          tags.map((tag,index) => {
+            return (
+
+            <Tag styles={styles} tag = {tag} id = {index}/>
+
+            )
+            
+          })
+        }
+        
+      </div>
+    </div>
+  </div>
+  )
+}
