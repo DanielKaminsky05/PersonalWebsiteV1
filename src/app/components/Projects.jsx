@@ -27,7 +27,7 @@ const projects = [
     projectName: "SolarMap",
     projectDescription:
       "Developed an interactive tool to visualize solar panel potential across geographic regions. Utilized Flask and React for a dynamic frontend-backend interface, integrating external APIs for real-time data.",
-    image: "./solarMap.png",
+    image: "DemoMap.png",
     tags: ["Flask", "React", "Axios", "Requests", "API", "Python"],
   },
   {
@@ -66,6 +66,7 @@ export default function Projects({ styles }) {
                 spaceBetween: 20,
               }
             }}
+            lazy = {false}
         >
         {
           projects.map((project, index) => {
@@ -77,6 +78,7 @@ export default function Projects({ styles }) {
                     video = {project.video}
                     tags = {project.tags}
                     image = {project.image}
+                    id = {index}
                   />
 
                   
