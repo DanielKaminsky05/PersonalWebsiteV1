@@ -5,7 +5,7 @@ export default function SlideCard({styles, video, projectName, projectDescriptio
   return (
     <div className={styles.slideCard}>
     <div className={styles.videoContainer}>
-      <div className={styles.videoOverlay}></div>
+      
         {video ? (
             <video
               className={styles.video}
@@ -19,7 +19,7 @@ export default function SlideCard({styles, video, projectName, projectDescriptio
           ) : (
             <img className = {styles.video} src = {image}/>
           )}
-    
+    <div className={styles.videoOverlay}></div>
     </div>
     <div className={styles.slideText}>
         <h3 className={styles.projectHeading}>{projectName}</h3>
