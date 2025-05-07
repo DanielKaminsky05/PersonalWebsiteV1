@@ -14,7 +14,7 @@ const projects = [
     projectDescription:
       "A tool that combines computer vision and AES encryption, allowing users to selectively encrypt specific objects. Unlike other software that encrypts entire videos, Secureframe encrypts only the relevant pixels — enabling safer distribution while maintaining maximum security.",
     video: "./SecureframeDemo.mp4",
-    tags: ["React", "Flask", "Ultralytics", "Python"],
+    tags: ["React", "Flask", "Ultralytics", "Python", "YoloV8"],
   },
   {
     projectName: "Councillor 13 Website",
