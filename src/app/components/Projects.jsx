@@ -66,7 +66,6 @@ export default function Projects({ styles }) {
                 spaceBetween: 20,
               }
             }}
-            lazy = {false}
         >
         {
           projects.map((project, index) => {
