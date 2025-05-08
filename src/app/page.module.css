@@ -31,6 +31,26 @@
   margin-bottom: 30px;
 }
 
+.socialLinks {
+  display: flex;
+  gap: 20px;
+  padding-bottom: 20px;
+}
+
+.Icons {
+  width: 40px;
+  height: 40px;
+  fill: rgba(148, 163, 184, 0.5) ;
+  transition: 0.5s ease;
+}
+
+.Icons:hover {
+  fill: #38BDF8;
+  transform: scale(1.1);
+  transition: 0.3s ease;
+}
+
+
 .h3 {
   color: #E0F2FE;
   font-size: 60px;
@@ -63,6 +83,7 @@
 .limit {
   max-width: 1300px;
   margin: 0px 30px;
+  
 }
 
 .portrait {
@@ -171,6 +192,12 @@
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.1);
   overflow: hidden;
+  transition: 0.3s ease;
+}
+
+.slideCard:hover {
+  transform: scale(1.03);
+  transition: 0.3s ease;
 }
 
 .videoContainer {
@@ -503,7 +530,10 @@
     height: 580px
   }
 
-  
+  .Icons {
+    height: 35px;
+    width: 35px;
+  }
   
 }
 
@@ -595,6 +625,11 @@
 
   .swiper {
     height: 580px
+  }
+
+  .Icons {
+    height: 32px;
+    width: 32px;
   }
 }
 
@@ -707,6 +742,13 @@
   .formHeader {
     font-size: 18px;
   }
+
+  .Icons {
+    height: 30px;
+    width: 30px;
+  }
+
+ 
   
 }
 
