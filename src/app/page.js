@@ -5,7 +5,7 @@ import Hero from './components/Hero'
 import ExperienceSection from './components/ExperienceSection'
 import Skills from './components/Skills'
 import Projects from './components/Projects'
-
+import Contact from './Contact'
 
 export default function page() {
 
@@ -18,6 +18,7 @@ export default function page() {
           <ExperienceSection styles = {styles}/>
           <Skills styles={styles}/>
           <Projects styles = {styles}/>
+          <Contact styles = {styles}/>
         </div>
       </div>
     </div>
