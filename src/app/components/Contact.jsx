@@ -26,7 +26,7 @@ export default function Contact({styles}) {
   return (
     <div className={styles.contactContainer}>
         <h3 className={styles.h3}> Contact Me </h3>
-        <form onSubmit={handleSubmit}>
+        <form  action="https://formspree.io/f/mqaqboar" method="POST">
             <div>
                 <h4 className={styles.formHeader}>Email</h4>
                 <input className={styles.emailInput}  name = "email" value={formData.email} onChange={handleChange} placeholder='email@domain.com'/>
